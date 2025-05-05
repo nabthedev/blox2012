@@ -1,42 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ROBLOX (2012 Recreation)</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>ROBLOX Login</title>
+  <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
 <body>
-
-  <div id="header">
-    <h1>ROBLOX</h1>
-  </div>
-
+  <div id="header"><h1>ROBLOX</h1></div>
   <div class="nav">
-    <a href="#">Home</a>
-    <a href="#">Games</a>
-    <a href="#">Catalog</a>
-    <a href="#">People</a>
-    <a href="#">Forum</a>
-    <a href="#">Upgrade</a>
+    <a href="index.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="profiles.html">Profiles</a>
   </div>
-
   <div id="content">
-    <h2>Login to Roblox</h2>
+    <h2>Login</h2>
     <form id="loginForm">
-      <label for="username">Username:</label><br>
-      <input type="text" id="username" name="username"><br><br>
-      <label for="password">Password:</label><br>
-      <input type="password" id="password" name="password"><br><br>
+      <input type="text" id="loginUser" placeholder="Username" /><br /><br />
+      <input type="password" id="loginPass" placeholder="Password" /><br /><br />
       <button type="submit">Login</button>
     </form>
-    <p id="loginMessage"></p>
+    <p id="loginMsg"></p>
   </div>
-
-  <div id="footer">
-    © Roblox Corporation 2012
-  </div>
-
 </body>
 </html>
-
